@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e54f2adaa97470b9ad12f889068a293, type: 3}
+  m_Name: SnakeSettings
+  m_EditorClassIdentifier: 
+  RotationLerpCoefficient: 0.05
+  MoveSpeed: 2
+  SnakeHead: {fileID: 2326579198268186199, guid: 4590286c155362547b59a8d5690c19e2,
+    type: 3}
+  SnakeBodySegment: {fileID: -6928420366847625093, guid: 39f2f38de47243b42a2e1cc632bcdf8f,
+    type: 3}
