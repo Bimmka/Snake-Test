@@ -1,17 +1,27 @@
 ﻿using System.Collections.Generic;
+using Features.Cleanup;
 using UnityEngine;
 using Zenject;
 
 namespace Features.Updater.Scripts
 {
-	public class UpdatableObjectsContainer : MonoBehaviour, IUpdatableObjectsContainer
+	public class UpdatableObjectsContainer : MonoBehaviour, IUpdatableObjectsContainer, ICleanUp
 	{
 		private List<IUpdatable> updatables = new List<IUpdatable>();
 
+		public bool CleanUped { get; private set; }
+
 		[Inject]
-		public void Construct(List<IUpdatable> updatables)
+		public void Construct(List<IUpdatable> updatables, ICleanUpService cleanUpService)
 		{
 			this.updatables = updatables;
+			cleanUpService.Register(this);
+		}
+
+		public void CleanUp()
+		{
+			CleanUped = true;
+			updatables.Clear();
 		}
 
 		public void Register(IUpdatable updatable)

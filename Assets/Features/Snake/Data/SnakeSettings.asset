@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: SnakeSettings
   m_EditorClassIdentifier: 
   RotationLerpCoefficient: 0.05
-  MoveSpeed: 2
+  MoveSpeed: 10
+  SegmentMoveSpeed: 5
+  MarkersForOneElement: 7
+  MarkerSaveInterval: 0.1
   SnakeHead: {fileID: 2326579198268186199, guid: 4590286c155362547b59a8d5690c19e2,
     type: 3}
   SnakeBodySegment: {fileID: -6928420366847625093, guid: 39f2f38de47243b42a2e1cc632bcdf8f,

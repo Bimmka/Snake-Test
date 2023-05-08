@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd536a8a218845c08ad06da4f5cbf65f, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  BonusSpawnPositions:
+  - {x: -16.9, y: 16.89, z: -0.05}
+  - {x: 9.5, y: 3.81, z: -0.05}
+  - {x: 9.02, y: -0.97, z: -0.05}
+  - {x: -10.42, y: -13.93, z: -0.05}
+  - {x: 13.74, y: -11.87, z: -0.05}
+  - {x: 4.54, y: 15.38, z: -0.05}
+  - {x: -9.02, y: -5.57, z: -0.05}
+  - {x: -15.86, y: 5.27, z: -0.05}

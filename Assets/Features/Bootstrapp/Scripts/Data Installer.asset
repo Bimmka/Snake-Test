@@ -15,3 +15,7 @@ MonoBehaviour:
   followCameraSettings: {fileID: 11400000, guid: d07922319e782834d80120db34785c5a,
     type: 2}
   snakeSettings: {fileID: 11400000, guid: 5d3c6f8d7c1e65b4fb94e657d1f02bb9, type: 2}
+  bonusCooldownSettings: {fileID: 11400000, guid: 785ea289069dd1540a45774878305b44,
+    type: 2}
+  levelSettings: {fileID: 11400000, guid: 6a3a2255090ccd74a94cbde0f9c1331d, type: 2}
+  visualData: {fileID: 11400000, guid: a11cb67a5834f4545820be6e842fdc53, type: 2}
